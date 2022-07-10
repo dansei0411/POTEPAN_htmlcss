@@ -1,0 +1,119 @@
+
+
+@media screen and(max-width: 1080px) {
+    .Header{
+        background-color: #fff;
+        z-index: 10;
+    }
+    .HeaderNavHamburger-line{
+
+    }
+    .HeaderNavListItem a{
+        
+    }
+    .HeaderNavListItem-link span:first-child{
+        font-size: 16px;
+        letter-spacing: 5px;
+        color: #fff;
+    }
+}
+
+@media screen and(max-width: 1024px) {
+    .About{
+        flex-direction: column;
+    }
+    .About-video{
+        margin-bottom: 16px;
+        width: 75%;
+    }
+    .About-title{
+        margin-left: 0;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .Header{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .HeaderLogo-image-pc{
+        display: none;
+    }
+    .HeaderLogo-image-sp{
+        display: block;
+        height: 16px;
+    }
+    
+
+    .FirstView{
+        background-image: none;
+        padding-top: ;
+        padding-bottom: ;
+    }
+    .FirstViewMain-image-sp{
+        display: block;
+        width: 100%;
+    }
+    .FirstView-container{
+        max-width: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: -45vw;
+    }
+    .FirstViewContent{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .FirstViewContent-title{
+        font-size: 25px;
+        line-height: 36px;
+        
+    }
+    .FirstViewContent-image{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .FirstViewContent-image img{
+        width: 27.5%;
+    }
+    .FirstViewContent-image img:nth-of-type(2){
+        width: 40%;
+    }
+    .FirstViewContent-buttons a:first-child{
+        font-size: 14px;
+        width: 100%;
+        margin-right: 0;
+
+    }
+    .FirstViewContent-buttons a:last-child{
+        display: none;
+    }
+
+
+    .AboutWrapper{
+        padding: 30px 0;
+    }
+    .About-video{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 428px){
+    .FixedFooter{
+        background-color: #f4f5f7;
+        bottom: 0;
+        height: 114px;
+        width: 100%;
+        right: 0;
+    }
+    .FixedFooter img{
+        margin: auto;
+        margin-top: -4px;
+        width: 98%;
+    }
+    
+}
